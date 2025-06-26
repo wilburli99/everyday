@@ -1,3 +1,5 @@
+package day1;
+
 public class day1 {
     // 小于等于k的最长二进制子序列
     public int longestSubsequence(String s, int k) {
