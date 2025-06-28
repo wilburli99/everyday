@@ -24,5 +24,6 @@ public class day1 {
                 power *= 2;
             }
         }
+        return count;
     }
 }
