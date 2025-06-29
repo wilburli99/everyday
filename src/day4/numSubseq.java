@@ -15,7 +15,7 @@ public class numSubseq {
         int[] pow2 = new int[n];
         pow2[0] = 1;
         for (int i = 0; i < n; i++) {
-            pow2[i] = (pow2[i - 1] *2) % MOD;
+            pow2[i] = (pow2[i - 1] *2) % MOD; // 计算2的幂次，前一个值乘以2
         }
 
         // 使用双指针
