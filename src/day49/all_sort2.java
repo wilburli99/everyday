@@ -30,4 +30,13 @@ public class all_sort2 {
             path.remove(path.size() - 1); // 撤回
         }
     }
+
+    public static void main(String[] args) {
+        all_sort2 obj = new all_sort2();
+        int[] nums = {1,2,3,4,5};
+        List<List<Integer>> res = obj.permuteUnique(nums);
+        for (List<Integer> list : res) {
+            System.out.println(list);
+        }
+    }
 }
